@@ -1,0 +1,53 @@
+@import "screen.scss";
+
+:root {
+  --side-p: 8%;
+  // @include tablet-screen {
+  //   --side-p: 3rem;
+  // }
+  @include mobile-screen {
+    --side-p: 1.25rem;
+  }
+
+  // main border radius
+  --b-r: 0.4em;
+
+  --nav-height: 4rem;
+  --sidebar-width: 270px;
+
+  // a tags
+  --link: #0000be;
+
+
+  // colors
+  --white-1: #fefefe;
+  --white-2: #eeeeee;
+  --white-3: #e5e7eb; // border
+  --white-4: #cdcdcd;
+  --white-5: #bcbcbc;
+  --white-6: #aaaaaa;
+
+  --black-1: #000000;
+  --black-2: #111111;
+  --black-3: #121212; // title
+  --black-4: #222222;
+  --black-5: #232323; // paragraph
+  --black-6: #333333;
+  --black-7: #666666;
+  --black-8: #999999;
+}
+
+.light {
+  --bg: var(--white-1);
+  --hr: var(--white-5);
+
+  --text: var(--black-5);
+  --title-border: var(--white-4);
+  --alert: var(--black-7);
+
+  --link-hover: var(--white-3);
+  --nav-link: var(--black-7);
+  --nav-border: var(--white-3);
+
+  --burger: var(--black-8);
+}

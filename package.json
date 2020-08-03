@@ -1,0 +1,24 @@
+{
+  "name": "snowy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^2.14.0",
+    "yaml": "^1.10.0",
+    "yaml-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "@nuxt/components": "^1.0.7",
+    "@nuxt/content": "^1.5.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
+  }
+}

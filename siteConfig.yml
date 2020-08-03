@@ -1,0 +1,13 @@
+name: Snowy
+description: Simple and minamlistic Nuxt Content theme for documentation
+source: https://github.com/ninest/snowblack
+package: https://github.com/ninest/snowblack
+
+navbar:
+  - text: Guide
+    url: /guide
+  - text: Example
+    url: /example
+  - text: Source
+    url: https://github.com/ninest/snowblack
+    external: true

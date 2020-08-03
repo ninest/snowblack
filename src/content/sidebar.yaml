@@ -1,0 +1,19 @@
+guide:
+  # main title in sidebar
+  title: Guide
+  root: /guide
+  sections:
+    -  links:
+        - text: Introduction
+          slug: /
+        - text: Installation
+          slug: /installation
+
+    - title: Sections
+      links:
+        - text: Adding
+          slug: /section-adding
+        - text: Editing
+          slug: /section-editing
+
+examples:

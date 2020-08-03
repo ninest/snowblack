@@ -1,0 +1,38 @@
+// used in navbar, footer, almost everywhere actually
+.link-hover {
+  border-radius: var(--b-r);
+  margin: -0.25em -0.6em;
+  padding: 0.25em 0.6em;
+
+  &:hover {
+
+    background-color: var(--link-hover);
+  }
+
+  &.solid {
+    margin: -0.25em -0.6em;
+    padding: 0.25em 0.6em;
+  }
+}
+
+// used in toc and sidebar
+.link-hover-block {
+  display: block;
+  border-radius: var(--b-r);
+  padding: 0.25em 0.6em;
+  &:hover {
+    background-color: var(--link-hover);
+  }
+
+  &.highlight-active {
+    &.nuxt-link-active {
+      background-color: var(--link-hover);
+    }
+  }
+
+  &.highlight-exact-active {
+    &.nuxt-link-exact-active {
+      background-color: var(--link-hover);
+    }
+  }
+}
