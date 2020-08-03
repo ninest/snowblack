@@ -1,5 +1,5 @@
 <template>
   <Default
-    title="Snowy"
+    title="snowblack"
   ></Default>
 </template>
